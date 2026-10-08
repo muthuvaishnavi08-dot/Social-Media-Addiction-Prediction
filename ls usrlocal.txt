@@ -1,0 +1,5 @@
+ls /usr/local/
+bin  etc  games  hadoop  include  lib  man  sbin  share  src
+vaish@Bhuva121:/mnt/c/WINDOWS/system32$ export HADOOP_HOME=/usr/local/hadoop
+vaish@Bhuva121:/mnt/c/WINDOWS/system32$ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+vaish@Bhuva121:/mnt/c/WINDOWS/system32$ hdfs version
